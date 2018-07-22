@@ -58,7 +58,7 @@
 仿真结果位于result文件夹中
 ![image](https://github.com/ZhipengPan/polar-code/blob/master/result/result_256_128.png)
 
-##参考文献
+## 参考文献
 
 [1]	Arikan E. Channel Polarization: A Method for Constructing Capacity-Achieving Codes for Symmetric Binary-Input Memoryless Channels[J]. IEEE Transactions on Information Theory, 2009, 55(7):3051-3073.
 

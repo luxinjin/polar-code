@@ -26,15 +26,15 @@
 
 2. initPC是polar码初始化程序，主要构建Polar的数据结构，包括了：
     - N: 码长
-    - K: 信息位长(code rate $R = \frac{K}{N}$)
+    - K: 信息位长(code rate R = \frac{K}{N})
     - n: $\log_2(N)$
-    - FZlookup: `$N$`长向量，为0表示为frozen bits位置，为-1表示信息比特位置
+    - FZlookup: $N$长向量，为0表示为frozen bits位置，为-1表示信息比特位置
     - L: 用于存储运算过程中的左信息值（算法中的L矩阵）
     - B: 用于存储运算过程中的右信息值（算法中的B矩阵）
-    - bitreversedindices: 等效于`$G= B\times F^{\otimes n}$`中的`$B$`
-    - 其中FZlookup是Frozen Bits的位置构造的码字针对的是`$G= B\times F^{\otimes n}$`生成矩阵，而非`$G= F^{\otimes n}$` (这两种形式都很常用，但一定要弄清楚)
-    
-    **注意这里没有考虑memory简化，因此大小都为`$N\times(n+1)$`**
+    - bitreversedindices: 等效于$G= B\times F^{\otimes n}$中的$B$
+    - 其中FZlookup是Frozen Bits的位置构造的码字针对的是$G= B\times F^{\otimes n}$生成矩阵，而非$G= F^{\otimes n}$ (这两种形式都很常用，但一定要弄清楚)
+
+    **注意这里没有考虑memory简化，因此大小都为$N\times(n+1)$**
 
 
 3. pencode是编码程序。引入crc校验时，需要将crc校验信息当成是信息的一部分进行编码

@@ -1,8 +1,3 @@
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
-
 # Matlab simulation for polar codes
 
 ***本程序只供学习交流使用，请勿用于商业目的。***

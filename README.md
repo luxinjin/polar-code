@@ -24,8 +24,8 @@
 
 2. initPC是polar码初始化程序，主要构建Polar的数据结构，包括了：
     - N: 码长
-    - K: 信息位长(code rate `$R = \frac{K}{N}$`)
-    - n: `$\log_2(N)$`
+    - K: 信息位长(code rate $R = \frac{K}{N}$)
+    - n: $\log_2(N)$
     - FZlookup: `$N$`长向量，为0表示为frozen bits位置，为-1表示信息比特位置
     - L: 用于存储运算过程中的左信息值（算法中的L矩阵）
     - B: 用于存储运算过程中的右信息值（算法中的B矩阵）

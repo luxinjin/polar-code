@@ -1,8 +1,5 @@
 # polar-code
 
-***本程序只供学习交流使用，请勿用于商业目的。***
-
-***注：由于版权原因 本程序代码只公布了 SC SCL 和SSC算法，如有需要BP和SCAN算法的请私信底部邮件***
 
 ## 程序说明
 1. 本程序给出一个主函数示例main,用户输入选择译码算法，以及译码参数
@@ -52,9 +49,10 @@
 
 10. constructedCode文件夹下的construct_polar_code_GA函数为高斯近似polar码构造方法，construct_polar_code_Ba为巴氏参数界构造方法。
 
-#### 仿真结果：
+## 仿真结果：
 仿真结果位于***result***文件夹中
-![image](E:/YoudaoLocalFile/zhipengpan10@163.com/figure/result_256_128.png)
+![image](https://github.com/ZhipengPan/polar-code/blob/master/result/result_256_128.png)
+
 
 ## 联系作者
 潘志鹏
@@ -62,3 +60,7 @@
 湖南，长沙
 
 邮件：zhipengpan10@163.com panzhipeng10@nudt.edu.cn
+
+***本程序只供学习交流使用，请勿用于商业目的。***
+
+***注：由于版权原因 本程序代码只公布了 SC SCL 和SSC算法，如有需要BP和SCAN算法的请私信底部邮件***
